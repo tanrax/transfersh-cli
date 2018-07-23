@@ -3,7 +3,7 @@
 ## Install
 
 ``` bash
-pip install transfersh-cli
+pip3 install transfersh-cli
 ```
 
 ## Use
