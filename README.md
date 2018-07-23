@@ -1,15 +1,21 @@
 # transfersh-cli
 
+## Install
+
+``` bash
+pip install transfersh-cli
+```
+
 ## Use
 
 ``` bash
-pytrasnfer-cli [file]
+trasnfersh [file]
 ```
 
 Example
 
 ``` bash
-pytrasnfer-cli photos.zip
+trasnfersh photos.zip
 ```
 
 Output
