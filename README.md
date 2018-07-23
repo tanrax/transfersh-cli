@@ -1,7 +1,7 @@
 # transfersh-cli
 
 <p align="center">
-    <img src="demo.svg">
+    <img src="https://cdn.rawgit.com/tanrax/transfersh-cli/master/demo.svg">
 </p>
 
 ## Install
