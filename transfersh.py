@@ -1,8 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Libraries
 import os
 import requests
 import click
 import pyperclip
 
+# Variables
 URL_TRANSFERSH = 'https://transfer.sh'
 
 @click.command()
