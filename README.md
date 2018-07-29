@@ -1,5 +1,9 @@
 # transfersh-cli
 
+<p align="center">
+    <img src="https://cdn.rawgit.com/tanrax/transfersh-cli/master/demo.svg">
+</p>
+
 ## Install
 
 ``` bash
