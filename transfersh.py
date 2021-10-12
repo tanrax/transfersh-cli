@@ -12,7 +12,6 @@ URL_TRANSFERSH = 'https://transfer.sh'
 
 @click.command()
 @click.argument('filename')
-def transfersh_cli(filename):
 @click.option('-a', '--max-days', type=int, help='Maximum number of days to keep file')
 def transfersh_cli(filename, max_days, max_downloads):
     """ Program that uploads a file to Transfer.sh """
