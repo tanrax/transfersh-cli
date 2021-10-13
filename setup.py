@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
   name = 'transfersh-cli',
   py_modules=['transfersh'],
-  version = '1.0.3',
+  version = '1.1.0',
   python_requires='>3.6',
   description = 'Client to upload files to the transfer.sh service',
   author = 'Andros Fenollosa',
