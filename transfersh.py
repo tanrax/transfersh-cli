@@ -13,6 +13,7 @@ URL_TRANSFERSH = 'https://transfer.sh'
 @click.command()
 @click.argument('filename')
 @click.option('-a', '--max-days', type=int, help='Maximum number of days to keep file')
+@click.option('-d', '--max-downloads', type=int, help='Maximum number of times that file can be downloaded')
 def transfersh_cli(filename, max_days, max_downloads):
     """ Program that uploads a file to Transfer.sh """
     try:
@@ -24,6 +25,8 @@ def transfersh_cli(filename, max_days, max_downloads):
             headers = {}
             if max_days is not None:
                 headers['Max-Days'] = str(max_days)
+            if max_downloads is not None:
+                headers['Max-Downloads'] = str(max_downloads)
             r = requests.post(URL_TRANSFERSH, files=conf_file, headers=headers)
             # Shows route to download
             download_url = r.text
