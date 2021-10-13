@@ -37,13 +37,13 @@ In addition, the route will be saved in your clipboard. Ready to paste it where 
 `-a` or `--max-days`.
 
 ``` bash
-trasnfersh [file] --max-days [number]
+trasnfersh --max-days [number] [file]
 ```
 
 Example
 
 ``` bash
-trasnfersh photos.zip --max-days 7
+trasnfersh --max-days 7 photos.zip
 ```
 
 ### Maximum number of times that file can be downloaded
@@ -51,11 +51,11 @@ trasnfersh photos.zip --max-days 7
 `-d` or `--max-downloads`.
 
 ``` bash
-trasnfersh [file] --max-downloads [number]
+trasnfersh --max-downloads [number] [file]
 ```
 
 Example
 
 ``` bash
-trasnfersh photos.zip --max-downloads 2
+trasnfersh --max-downloads 2 photos.zip
 ```
