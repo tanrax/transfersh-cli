@@ -23,8 +23,10 @@ def transfersh_cli(filename, max_days, max_downloads):
             # Upload file
             conf_file = {filename: data}
             headers = {}
+            # Option to indicate the maximum number of days
             if max_days is not None:
                 headers['Max-Days'] = str(max_days)
+            # Option to indicate the maximum number of downloads
             if max_downloads is not None:
                 headers['Max-Downloads'] = str(max_downloads)
             r = requests.post(URL_TRANSFERSH, files=conf_file, headers=headers)
