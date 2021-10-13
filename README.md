@@ -1,6 +1,6 @@
 # transfersh-cli
 
-![Demo](images/demo.svg)
+![Demo](media/demo.svg)
 
 ## Install
 
