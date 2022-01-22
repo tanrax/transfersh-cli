@@ -11,13 +11,13 @@ pip3 install transfersh-cli
 ## Use
 
 ``` bash
-trasnfersh [file]
+transfersh [file]
 ```
 
 Example
 
 ``` bash
-trasnfersh photos.zip
+transfersh photos.zip
 ```
 
 Output
@@ -37,13 +37,13 @@ In addition, the route will be saved in your clipboard. Ready to paste it where 
 `-a` or `--max-days`.
 
 ``` bash
-trasnfersh --max-days [number] [file]
+transfersh --max-days [number] [file]
 ```
 
 Example
 
 ``` bash
-trasnfersh --max-days 7 photos.zip
+transfersh --max-days 7 photos.zip
 ```
 
 ### Maximum number of times that file can be downloaded
@@ -51,11 +51,11 @@ trasnfersh --max-days 7 photos.zip
 `-d` or `--max-downloads`.
 
 ``` bash
-trasnfersh --max-downloads [number] [file]
+transfersh --max-downloads [number] [file]
 ```
 
 Example
 
 ``` bash
-trasnfersh --max-downloads 2 photos.zip
+transfersh --max-downloads 2 photos.zip
 ```
