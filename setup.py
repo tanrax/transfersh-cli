@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="transfersh-cli",
     py_modules=["transfersh"],
-    version="1.2.0",
+    version="1.2.1",
     python_requires=">3.6",
     description="Client to upload files to the transfer.sh service",
     author="Andros Fenollosa",
@@ -18,9 +18,9 @@ setup(
     install_requires=[
         "click==8.1.7",
         "progressbar2==4.2.0",
-        "pyperclip==1.0.0",
+        "pyperclip==1.8.2",
         "requests==2.31.0",
-        "requests-toolbelt==",
+        "requests-toolbelt==1.0.0",
         "tqdm==4.66.1",
     ],
     entry_points="""
