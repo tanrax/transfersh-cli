@@ -18,7 +18,7 @@ setup(
     install_requires=[
         "click==8.1.7",
         "progressbar2==4.2.0",
-        "pyperclip==",
+        "pyperclip==1.0.0",
         "requests==2.31.0",
         "requests-toolbelt==",
         "tqdm==4.66.1",
