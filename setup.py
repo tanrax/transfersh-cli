@@ -10,11 +10,11 @@ setup(
     author_email="andros@fenollosa.email",
     url="https://github.com/tanrax/transfersh-cli",
     keywords=["transfer", "upload", "client"],
-    classifiers=(
+    classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ),
+    ],
     install_requires=[
         "click==8.1.7",
         "progressbar2==4.2.0",

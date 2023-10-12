@@ -1,3 +1,4 @@
+twine
 click==8.1.7
 progressbar2==4.2.0
 pyperclip==1.8.2
