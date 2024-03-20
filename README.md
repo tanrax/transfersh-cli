@@ -2,6 +2,8 @@
 
 ![Demo](media/demo.svg)
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 ## Install
 
 ``` bash
